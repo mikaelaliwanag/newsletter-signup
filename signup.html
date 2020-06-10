@@ -17,13 +17,13 @@
   </head>
 
   <body class="text-center">
-    <form class="form-signin">
+    <form class="form-signin" action="/" method="POST">
       <img class="mb-0 logo" src="images/logo.png" alt="logo">
       <h1 class="h3 mb-3 font-weight-400">Join the Newsletter!</h1>
 
-      <input type="text" class="form-control top" placeholder="First Name" required>
-      <input type="text" class="form-control middle" placeholder="Last Name" required>
-      <input type="email" class="form-control bottom" placeholder="Email" required autofocus>
+      <input type="text" name="fName" class="form-control top" placeholder="First Name" required>
+      <input type="text" name="lName" class="form-control middle" placeholder="Last Name" required>
+      <input type="email" name="email" class="form-control bottom" placeholder="Email" required autofocus>
       
       <button class="btn btn-lg btn-primary btn-block" type="submit">Sign Me Up!</button>
       <p class="mt-2 mb-3 text-muted">&copy; Take Action 2020</p>
